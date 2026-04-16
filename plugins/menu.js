@@ -106,7 +106,7 @@ let handler = async (m, { conn, usedPrefix, command, args }) => {
    for (let b of objek) {
     totalHit += b
     }
-  let docUrl = 'https://telegra.ph/file/e601537d315cbc69b856b.jpg'
+  let docUrl = 'https://i.postimg.cc/0QQJ22GR/3ecd19364d0234095cb25caca84cc828.jpg'
   let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(plugin => {
     return {
       help: Array.isArray(plugin.tags) ? plugin.help : [plugin.help],
@@ -191,7 +191,7 @@ conn.sendMessage(m.chat, {
               externalAdReply: {
                 containsAutoReply: true,
                 mediaType: 1,
-                mediaUrl: 'https://telegra.ph/file/74abb87ac6082571db546.jpg',
+                mediaUrl: 'https://i.postimg.cc/0QQJ22GR/3ecd19364d0234095cb25caca84cc828.jpg',
                 renderLargerThumbnail: true,
                 showAdAttribution: true,
                 sourceUrl: sgc,
@@ -216,7 +216,7 @@ conn.sendMessage(m.chat, {
         const readMore = more.repeat(4001)
         
     const list2 =  `${headers}${readMore}╭──「 MENU ${cmd.toUpperCase()} 」\n├──────────────\n│※ ${daftarHelp}\n╰──────────•\n\n*Total menu ${cmd}: ${tagHelpMapping[cmd].length}*`
-     const pp = await conn.profilePictureUrl(m.sender, 'image').catch((_) => "https://telegra.ph/file/1ecdb5a0aee62ef17d7fc.jpg");
+     const pp = await conn.profilePictureUrl(m.sender, 'image').catch((_) => "https://i.postimg.cc/0QQJ22GR/3ecd19364d0234095cb25caca84cc828.jpg");
 if (_menu.image) {
 
 conn.sendMessage(m.chat, {
@@ -291,7 +291,7 @@ conn.sendMessage(m.chat, {
       return`╭──「 MENU ${tag.toUpperCase()} 」\n├──────────────\n│※ ${daftarHelp}\n╰──────────•`;
     }).join('\n');
     let all =  `${headers}${readMore}\n${allTagsAndHelp}\n${wm}`
-    const pp = await conn.profilePictureUrl(m.sender, 'image').catch((_) => "https://telegra.ph/file/1ecdb5a0aee62ef17d7fc.jpg");
+    const pp = await conn.profilePictureUrl(m.sender, 'image').catch((_) => "https://i.postimg.cc/0QQJ22GR/3ecd19364d0234095cb25caca84cc828.jpg");
     if (_menu.image) {
 
 conn.sendMessage(m.chat, {
@@ -339,7 +339,7 @@ conn.sendMessage(m.chat, {
               externalAdReply: {
                 containsAutoReply: true,
                 mediaType: 1,
-                mediaUrl: 'https://telegra.ph/file/74abb87ac6082571db546.jpg',
+                mediaUrl: 'https://i.postimg.cc/0QQJ22GR/3ecd19364d0234095cb25caca84cc828.jpg',
                 renderLargerThumbnail: true,
                 showAdAttribution: true,
                 sourceUrl: sgc,
