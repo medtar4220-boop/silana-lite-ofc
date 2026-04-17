@@ -45,7 +45,7 @@ global.media = {
  spotify : 'https://i.postimg.cc/B6S8kywB/IMG-20260417-WA0072.jpg',
  weather : 'https://i.postimg.cc/B6S8kywB/IMG-20260417-WA0072.jpg',
  gempaUrl : 'https://i.postimg.cc/B6S8kywB/IMG-20260417-WA0072.jpg',
- akses : 'https://telegra.ph/file/6c7b9ffbdfb0096e1db3e.jpg',
+ akses : 'https://i.postimg.cc/B6S8kywB/IMG-20260417-WA0072.jpg',
  wel : 'https://telegra.ph/file/9dbc9c39084df8691ebdd.mp4',
  good : 'https://telegra.ph/file/1c05b8c019fa525567d01.mp4',
  sound: 'https://pomf2.lain.la/f/ymca9u8.opus'
