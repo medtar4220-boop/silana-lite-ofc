@@ -44,7 +44,7 @@ global.media = {
  tqto : 'https://i.postimg.cc/B6S8kywB/IMG-20260417-WA0072.jpg',
  spotify : 'https://i.postimg.cc/B6S8kywB/IMG-20260417-WA0072.jpg',
  weather : 'https://i.postimg.cc/B6S8kywB/IMG-20260417-WA0072.jpg',
- gempaUrl : 'https://telegra.ph/file/03e70dd45a9dc628d84c9.jpg',
+ gempaUrl : 'https://i.postimg.cc/B6S8kywB/IMG-20260417-WA0072.jpg',
  akses : 'https://telegra.ph/file/6c7b9ffbdfb0096e1db3e.jpg',
  wel : 'https://telegra.ph/file/9dbc9c39084df8691ebdd.mp4',
  good : 'https://telegra.ph/file/1c05b8c019fa525567d01.mp4',
