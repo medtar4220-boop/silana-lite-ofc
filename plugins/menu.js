@@ -142,7 +142,7 @@ let headers = `إعتبرني : رفيقتك ، أستاذتك ،عزيزتك ،
     let mpt = clockString(_mpt)
     let name = m.pushName || conn.getName(m.sender)
     let list = `${headers}${readMore}\n╭──「 LIST MENU 」\n│※ ${usedPrefix + command} all\n│※ ${daftarTag}\n╰──────────•`
- const pp = await conn.profilePictureUrl(m.sender, 'image').catch((_) => "https://telegra.ph/file/1ecdb5a0aee62ef17d7fc.jpg");
+ const pp = await conn.profilePictureUrl(m.sender, 'image').catch((_) => "https://i.postimg.cc/0QQJ22GR/3ecd19364d0234095cb25caca84cc828");
 if (_menu.image) {
 
 conn.sendMessage(m.chat, {
