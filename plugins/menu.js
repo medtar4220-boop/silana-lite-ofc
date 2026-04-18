@@ -123,7 +123,7 @@ let handler = async (m, { conn, usedPrefix, command, args }) => {
    let tUser = Object.keys(db.data.users).length;
    let userReg = Object.values(global.db.data.users).filter(user => user.registered == true).length
    
-let headers = `إعتبرني : رفيقتك ، أستاذتك ،عزيزتك ،التي ستجدها قربك في كل يوم لأجعل لك من نجمة ستة و من استخدام تطبيق الواتساب طعما آخر انا بوت المطور محمد ول التار 👨‍💻 🙂‍↕️🧠🗣️\n\n`
+let headers = `إعتبرني: رفيقتك ، أستاذتك ،عزيزتك ،التي ستجدها قربك في كل يوم لأجعل لك من نجمة ستة و من استخدام تطبيق الواتساب طعما آخر انا بوت المطور محمد ول التار المطور الأصلي والمالك، المطور الفرعي :بودي المكروف 👨‍💻 🙂‍↕️🧠🗣️\n\n`
 
   if (cmd === 'list') {
     const daftarTag = Object.keys(tagCount)
